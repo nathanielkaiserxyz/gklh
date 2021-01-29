@@ -15,8 +15,41 @@ header {
 
 }
 
+.leaderboardBigContainer{
+  justify-content: flex-start;
+  flex-direction: row;
+  display:flex;
+}
+
+.leaderboardSmallContainer{
+  justify-content: flex-start;
+  flex-direction: column;
+  display:flex;
+}
+.leaderboardTitle{
+  width:19rem;
+  height:50px;
+  border: 2px solid #DFE2DB;
+  font-family:Liberation Sans, Arial, sans-serif;
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.leaderboardContents{
+  width:19rem;
+  border: 2px solid #DFE2DB;
+  font-family:Liberation Sans, Arial, sans-serif;
+  text-align:left;
+  font-size:20px;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
 .container {
-justify-content: flex-start;
+  justify-content: flex-start;
   margin-left:1ch;
   margin-top:2.5ch;
   flex-direction: row;
@@ -90,4 +123,3 @@ a:hover {
 .white {
   color:#70AB8F;
 }
-
